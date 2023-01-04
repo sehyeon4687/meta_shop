@@ -1,10 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
+import styled from "styled-components";
 
 const Main = () => {
 
   return (
-    <div>Main</div>
+    <MainStyle>Main</MainStyle>
   )
 }
 
 export default Main
+
+const MainStyle = styled.div`
+`
